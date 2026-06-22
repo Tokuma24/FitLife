@@ -1,11 +1,4 @@
 # Проект FitLife - MVP версия 1.0
-# import sys
-# import io
-
-
-# Принудительно устанавливаем кодировку для вывода (ошибка с кириллицей)
-# sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-# sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
 
 # Константы
 WATER_PER_KG_ML = 30  # Рекомендация по воде: 30 мл на 1 кг веса
@@ -32,7 +25,8 @@ water_ml = user_weight * WATER_PER_KG_ML
 water_l = water_ml / 1000  # Перевести в литры
 
 # 4. Вывод красивого результата
-print(f'Отчет для пользователя: {user_name.title()} ({user_age} г.)')
+print(f'Отчет для пользователя: {user_name} ({user_age} г.)')
 print(f'Твой Индекс Массы Тела: {bmi:.1f}')
 print(f'Рекомендуемая норма воды: {water_l:.1f} л. в день')
 print('\nРасчет окончен. Будьте здоровы!')
+print()
