@@ -36,7 +36,9 @@ while True:
 # 2. Сбор данных
 
 user_weight = float(input('Введите свой вес: ').replace(',', '.'))
-user_height = float(input('Введите свой рост (в метрах, например 1.75): ').replace(',', '.'))
+user_height = float(
+    input('Введите свой рост (в метрах, например 1.75): ').replace(',', '.')
+    )
 
 
 # 3. Логика расчетов
