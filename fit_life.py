@@ -16,10 +16,9 @@ FitLife - MVP версия 1.2.
 """
 
 
-# Константы
-WATER_PER_KG_ML = 30    # Рекомендация по воде: 30 мл на 1 кг веса
-ML_PER_LITER = 1000     # 1 литр = 1000 миллилитров
-HEIGHT_PROMPT = 'Введите свой рост (в метрах, например 1.75): '
+# Импорт констант из отдельного файла
+from constants import WATER_PER_KG_ML, ML_PER_LITER, HEIGHT_PROMPT
+
 
 # 1. Знакомство
 print('Приветствую в приложение FitLife!')
