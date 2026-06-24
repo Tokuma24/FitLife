@@ -48,7 +48,10 @@ water_ml = user_weight * WATER_PER_KG_ML    # Подсчет воды: вес * 
 water_l = water_ml / ML_PER_LITER           # Переводим миллилитры в литры
 
 # 4. Вывод красивого результата
+print()
+print('='*43)
 print(f'Отчет для пользователя: {user_name} ({user_age} г.)')
 print(f'Твой Индекс Массы Тела: {bmi:.1f}')
 print(f'Рекомендуемая норма воды: {water_l:.1f} л. в день')
 print('\nРасчет окончен. Будьте здоровы!')
+print('='*43)
